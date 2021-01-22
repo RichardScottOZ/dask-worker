@@ -26,6 +26,10 @@ RUN conda install --yes \
     h5py==2.10.0 \
     zarr==2.3.2 \
     rechunker==0.3.2 \
+    intake-stac==0.3.0 \
+    sat-search==0.3.0 \
+    rioxarray==0.1.1 \
+    geopandas==0.8.1 \
     && conda clean -tipsy \
     && find /opt/conda/ -type f,l -name '*.a' -delete \
     && find /opt/conda/ -type f,l -name '*.pyc' -delete \
